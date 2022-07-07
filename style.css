@@ -1,0 +1,58 @@
+/* google font import */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap');
+
+/* rest of css */
+body {
+    background-color: #F7D0F1;
+    font-family: 'Space Grotesk', 'Helvetica', 'Courier';
+    color: #7E2311;
+    font-size: 18px;
+    line-height: 1.25;
+    font-weight: 500;
+    cursor: crosshair;
+}
+
+
+
+nav {
+    display: block;
+    margin: 32px auto;
+    height: 150px;
+    max-width: 360px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+ul {
+    list-style: none;
+    font-size: 14px;
+    line-height: 2;
+}
+
+li {
+    border-bottom: 1px solid #7E2311;
+}
+
+a {
+    text-decoration: none;
+    color: #7E2311;
+    padding: 5px 15px;
+}
+
+a:hover {
+    cursor: help;
+    filter: blur(1.5px);
+    -webkit-filter: blur(1.5px);
+}
+
+
+section.about {
+    width: 360px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -50%);
+    padding: 0 10px;
+}
